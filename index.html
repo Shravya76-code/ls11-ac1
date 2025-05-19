@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title>Box model Example</title>
+    <style>
+        body    {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(213, 188, 205);
+        }
+
+        h1   {
+            background-color: rgb(204, 247, 242);
+            color: rgb(244, 252, 174);
+            padding: opx;
+        }
+
+        .box1  {
+            width: 200px;
+            padding: 10px;
+            margin: 20px;
+            background-color: beige;
+            border: 5px dashed lightskyblue;
+        }
+
+        .box2   {
+            width: 200px;
+            padding: 40px;
+            margin: 20px;
+            background-color: rgb(133, 237, 239);
+            border: 5px solid lightgreen;
+        }
+
+        .box1:hover,
+        .box2:hover {
+            transform: scale(1.05);
+            box-shadow: 10px 12px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Box model Example</h1>
+        <div class="box1">This is box 1</div>
+        <div class="box2">This is box 2</div>
+    </center>
+</body>
+
+</html>
